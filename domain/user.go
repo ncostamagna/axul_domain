@@ -12,7 +12,7 @@ type User struct {
 	UserName     string         `gorm:"size:70;unique" json:"username"`
 	FirstName    string         `gorm:"size:30" json:"firstname"`
 	LastName     string         `gorm:"size:30" json:"lastname"`
-	Password     string         `json:"password"`
+	Password     string         `json:"password,omitempty"`
 	Email        string         `gorm:"size:70" json:"email"`
 	Phone        string         `gorm:"size:30" json:"phone"`
 	ClientID     string         `json:"client_id"`
