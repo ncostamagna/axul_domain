@@ -1,8 +1,8 @@
 module github.com/ncostamagna/axul_domain
 
-go 1.19
+go 1.21
 
-require gorm.io/gorm v1.24.3
+require gorm.io/gorm v1.25.5
 
 require (
 	github.com/google/uuid v1.3.0 // indirect
