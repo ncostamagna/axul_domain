@@ -17,7 +17,7 @@ type User struct {
 	Email        string         `gorm:"type:char(70)" json:"email"`
 	Phone        string         `gorm:"type:char(30)" json:"phone"`
 	Photo        string         `gorm:"type:char(100)" json:"photo"`
-	Roles  []Roles         `json:"-"`
+	Roles        []Role         `json:"-"`
 	ClientID     string         `json:"client_id"`
 	ClientSecret string         `json:"client_secret"`
 	Token        string         `json:"token"`
